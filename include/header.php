@@ -58,14 +58,15 @@
 														<div class="menu-home-menu-container">
 															<!-- Naviagiton -->
 															<ul id="nav" class="nav main-menu menu navbar-nav">
-																<li><a href="#">Home</a></li>
+																<li><a href="index.php">Home</a></li>
 																<li><a href="about_us.php">About Us</a></li>
-																<li class="icon-active"><a href="#">Services</a>
+																<li><a href="services.php">Services</a></li>
+																<!-- <li class="icon-active"><a href="#">Services</a>
 																	<ul class="sub-menu">
 																		<li><a href="#">Company Registeration</a></li>
 																		<li><a href="#">ITR Return</a></li>
 																	</ul>
-																</li>
+																</li> -->
 																<li><a href="contact.php">Contact Us</a></li>
 															</ul>
 															<!--/ End Naviagiton -->

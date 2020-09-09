@@ -213,9 +213,9 @@
 								<div class="icon-bg"><i class="fa fa-handshake-o"></i></div>
 							</div>
 							<div class="service-content">
-								<h4><a href="#">GST REGISTRATION</a></h4>
+								<h4><a href="gst_registration.php">GST REGISTRATION</a></h4>
 								<p>Cras venenatis, purus sit amet tempus mattis, justo nisi facilisis metus, in tempus ipsum ipsum eu ipsum. Class aptent taciti</p>
-								<a class="btn" href="#"><i class="fa fa-arrow-circle-o-right"></i>View Service</a>
+								<a class="btn" href="gst_registration.php"><i class="fa fa-arrow-circle-o-right"></i>View Service</a>
 							</div>
 						</div>
 						<!--/ End Single Service -->
