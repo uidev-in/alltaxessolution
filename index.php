@@ -39,9 +39,9 @@
 								<div class="welcome-text"> 
 									<div class="hero-text"> 
 										<h4>We are always ready to help you</h4>
-										<h1>Start & Grow Your Business</h1>
+										<h1>You are just one Click Away</h1>
 										<div class="p-text">
-											<p>Nunc tincidunt venenatis elit. Etiam venenatis quam vel maximus bibendum Pellentesque elementum dapibus diam tristique</p>
+											<p>One stop solution for the all your Accounting, Auditing and Finance Needs</p>
 										</div>
 										<div class="button">
 											<a href="contact.html" class="bizwheel-btn theme-1 effect">Get Resgistered</a>
@@ -127,7 +127,7 @@
 						<div class="single-feature active">
 							<div class="icon-head"><i class="fa fa fa-inr"></i></div>
 							<h4><a href="service-single.html">Affordable Fee</a></h4>
-							<p>Aenean aliquet rutrum enimn scelerisque. Nam dictumanpo, antequis laoreet ullamcorper, velitsd odio scelerisque tod</p>
+							<p>Our fee structure is designed as per the needs and requirements of People to facilitate in completing their programs without any financial constraints. We support your need and provide maximum resources that best fit your needs.</p>
 							
 						</div>
 						<!--/ End Single Feature -->
@@ -137,7 +137,7 @@
 						<div class="single-feature">
 							<div class="icon-head"><i class="fa fa-shield"></i></div>
 							<h4><a href="service-single.html">Confidential & Safe</a></h4>
-							<p>Aenean aliquet rutrum enimn scelerisque. Nam dictumanpo, antequis laoreet ullamcorper, velitsd odio scelerisque tod</p>
+							<p>We keep your data completely safe and secure without getting out of any confidential information. You don't need to worry about your personal data. We use special encryptic code to get it prevent from potential Spam.</p>
 							
 						</div>
 						<!--/ End Single Feature -->
@@ -146,8 +146,8 @@
 						<!-- Single Feature -->
 						<div class="single-feature">
 							<div class="icon-head"><i class="fa fa-users"></i></div>
-							<h4><a href="service-single.html">Expert CA/CS Assistance</a></h4>
-							<p>Aenean aliquet rutrum enimn scelerisque. Nam dictumanpo, antequis laoreet ullamcorper, velitsd odio scelerisque tod</p>
+							<h4><a href="service-single.html">Expert Assistance</a></h4>
+							<p>Register to get the expert CA/CS assistance from here. Your all types of queries related to any matter of Accounting, Auditing and Finance will be answered by our experts.</p><br><br>
 							
 						</div>
 						<!--/ End Single Feature -->
@@ -157,7 +157,7 @@
 						<div class="single-feature">
 							<div class="icon-head"><i class="fa fa-thumbs-up"></i></div>
 							<h4><a href="service-single.html">Guaranteed Satisfaction</a></h4>
-							<p>Aenean aliquet rutrum enimn scelerisque. Nam dictumanpo, antequis laoreet ullamcorper, velitsd odio scelerisque tod</p>
+							<p>You will get gauranteed satisfaction in any of your matters by getting best customer service from our end. We believe in satisfying our customers with our services to attain maximum customer satisfaction.</p>
 							
 						</div>
 						<!--/ End Single Feature -->
@@ -168,13 +168,13 @@
 		<!--/ End Features Area -->
 		
 		<!-- Call To Action -->
-		<section class="call-action overlay" style="background-image:url('https://via.placeholder.com/1500x300')">
+		<section class="call-action cta-home overlay" style="background-image:url('img/cta_bg_img.jpg')">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9 col-12">
 						<div class="call-inner">
-							<h2>DEOMY &amp; TEXT WILL BE HERE</h2>
-							<p>ehicula maximus velit. Morbi non tincidunt purus, a hendrerit nisi. Vivamus elementum</p>
+							<h2>Schedule  your Appointment Now</h2>
+							<p>Don't hesitate to get in touch with us. Just tap on button and get it done right away.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-12">

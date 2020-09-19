@@ -327,7 +327,12 @@ border: none;
     border-left: 1px dashed #8c8c8c;
     padding-left: 25px;
 }
-
+.service-list,ul,li{
+  color: #868e96;
+  text-align:justify;
+  font-weight:400!important;
+  margin-bottom:10px!important;
+}
 		</style>
 		
 	</head>
@@ -496,10 +501,10 @@ border: none;
 
                       </div>
 
-                      <div class="row">
+                      <div class="row" style="padding-top: 25px;">
                         
                         <div class="col-md-4">
-                            <div class="py-4">
+                            <div>
                             <h2 class="text-capitalize font-weight-bold my-3">Who Should <span  style="color: #ff7364"> Apply for GST Registration?</span></h2>
                             </div>
                         </div>
@@ -507,12 +512,25 @@ border: none;
 
                           <div class="row">
                             
-                            <div class="col-md-12 px-4 my-2">
+                            <div class="col-md-12">
                             
                               <div class="mt-3">
                                 <p class="text-secondary text-justify">
-                                Under the GST Act, traders/service providers/manufactures whose turnover exceeds Rs 40 Lakhs for Goods (Rs 10 Lakhs for NE & hill states) (New Rate amended ended listed below is required to register as a normal taxable person. For certain businesses such as interstate supply, registration under GST is mandatory. If the organization carries on business without registering under GST, it will be an offense under GST and heavy penalties will apply. GST registration usually takes between 2-6 working days.
+                                  All businesses involved in buying or selling goods or providing services, or both, should register for GST. But for below-listed persons, GST Registration is compulsory.
                                 </p>
+                                <p class="service-list mt-3" style="color:red;">
+                                    <ul>
+                                        <li><strong>Turnover for Goods Provider</strong> – If your sales or turnover of goods is crossing Rs. 40 lakh in a year then GST Registration is mandatory. For the Special Category States, the limit is Rs.20 lakh in a year.</li>
+                                        <li><strong>Turnover for Service Provider  </strong> - If you are a service provider & sales or turnover is crossing Rs.20 lakh in a year then GST Registration is mandatory. For the Special Category States, the limit is Rs.10 lakh in a year.</li>
+                                        <li><strong>Agents of Suppliers or Input Service Distributor (ISD)  </strong> - All supplier agents and ISD, to earn benefits of Input Tax Credit, need GST Registration.</li>
+                                        <li><strong>Inter-State Operations  </strong> – Persons making an inter-state supply. Whatever the turnover.</li>
+                                        <li><strong>Inter-State Registration  </strong> – If you are a supplier in more than one state you need GST Registration in all the states that you supply goods or services to.</li>
+                                        <li><strong>Voluntary GST Registration  </strong> Any entity can obtain GST registration at any-time. Even when the above mandatory conditions don’t apply to them.</li>
+                                    
+                                    </ul>
+                                </p>
+                                
+
                               </div>
                             </div>
                          </div>
@@ -583,8 +601,9 @@ border: none;
                         
                         <div class="col-md-4">
                             <div class="py-4">
-                            <h2 class="text-capitalize font-weight-bold my-3">Document Required For <span  style="color: #ff7364">GST REGISTRATION</span></h2>
-                            <p class="text-secondary" style="line-height: 2;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam.</p>
+                            <h2 class="text-capitalize font-weight-bold my-3">Document Required For <span  style="color: #ff7364">Proprietorship / Individual</span></h2>
+                            <!-- <p class="text-secondary" style="line-height: 2;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam.</p>
+                             -->
                             </div>
                         </div>
                         <div class="col-md-8">
@@ -607,22 +626,25 @@ border: none;
                               <div class="col-md-6 px-4 my-2">
                               <img class="process-number" src="img/number-3.png">
                                 <div class="mt-3">
-                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Age Proof</a></h5>
-                                <p class="text-secondary"> Aadhar card or Driving License or passport</p>
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Aadhar card</a></h5>
+                                <p class="text-secondary">A copy of Aadhar card</p>
                                 </div>
                               </div>
+                             
                               <div class="col-md-6 px-4 my-2">
                                 <img class="process-number" src="img/number-4.png">
                                 <div class="mt-3">
-                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Address Proof</a></h5>
-                                  <p class="text-secondary">Address proof of business premises</p>
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Bank Docuements</a></h5>
+                                  <p class="text-secondary">Bank Statement or cancel cheque or passbook</p>
                                 </div>
                               </div>
                               <div class="col-md-6 px-4 my-2">
                                 <img class="process-number" src="img/number-5.png">
                                 <div class="mt-3">
-                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Bank Docuements</a></h5>
-                                  <p class="text-secondary">Bank Statement or cancel cheque or passbook</p>
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">office Address Proof</a></h5>
+                                  <p class="text-secondary"><strong>Own office</strong> – A copy of electricity bill/water bill/landline bill/ property tax receipt/ municipal khata</p>
+                                  <p class="text-secondary"><strong>Rented office</strong> – A copy of Rent agreement and NOC (No objection certificate) from the owner.</p>
+                                
                                 </div>
                               </div>
 
@@ -632,6 +654,283 @@ border: none;
 
                       </div>
                     </div>  
+
+                    <div class="container my-5">
+                      <div class="row">
+                        
+                        <div class="col-md-4">
+                            <div class="py-4">
+                            <h2 class="text-capitalize font-weight-bold my-3">Document Required For <span  style="color: #ff7364"> HUF</span></h2>
+                            <!-- <p class="text-secondary" style="line-height: 2;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam.</p>
+                             -->
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+
+                            <div class="row">
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number " src="img/number-1.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">PAN</a></h5>
+                                 <p class="text-secondary"> A copy of Permanent Account Number (PAN) card of HUF.</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-2.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Photograph</a></h5>
+                                 <p class="text-secondary">2 Passport size photograph</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-3.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Aadhar card</a></h5>
+                                <p class="text-secondary">A copy of Aadhar card of Karta</p>
+                                </div>
+                              </div>
+                             
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-4.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Bank Details</a></h5>
+                                  <p class="text-secondary">Bank Statement or cancel cheque or passbook</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-5.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Address Proof</a></h5>
+                                  <p class="text-secondary"><strong>Own office</strong> – A copy of electricity bill/water bill/landline bill/ property tax receipt.</p>
+                                  <p class="text-secondary"><strong>Rented office</strong> – A copy of Rent agreement and NOC (No objection certificate) from the owner.</p>
+                                
+                                </div>
+                              </div>
+
+                            </div>
+      
+                        </div>
+
+                      </div>
+                    </div>  
+
+                    <div class="container my-5">
+                      <div class="row">
+                        
+                        <div class="col-md-4">
+                            <div class="py-4">
+                            <h2 class="text-capitalize font-weight-bold my-3">Document Required For <span  style="color: #ff7364">Partnership deed/LLP Agreement</span></h2>
+                            <!-- <p class="text-secondary" style="line-height: 2;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam.</p>
+                             -->
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+
+                            <div class="row">
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number " src="img/number-1.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">PAN</a></h5>
+                                 <p class="text-secondary"> Permanent Account Number (PAN) of the business entity.</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-2.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Photograph</a></h5>
+                                 <p class="text-secondary">Passport size photograph of all partners</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-3.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Aadhar card</a></h5>
+                                <p class="text-secondary">A copy of Aadhar card</p>
+                                </div>
+                              </div>
+                             
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-4.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Bank Docuements</a></h5>
+                                  <p class="text-secondary">Bank Statement or cancel cheque or passbook</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-5.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">office Address Proof</a></h5>
+                                  <p class="text-secondary"><strong>Own office</strong> – A copy of electricity bill/water bill/landline bill/ property tax receipt/ municipal khata</p>
+                                  <p class="text-secondary"><strong>Rented office</strong> – A copy of Rent agreement and NOC (No objection certificate) from the owner.</p>
+                                
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-6.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">LLP Certificate </a></h5>
+                                  <p class="text-secondary"><strong>In case of LLP</strong> - Registration Certificate of the LLP, Copy of board resolution</p>
+                                  
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-7.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Letter of Authorization</a></h5>
+                                  <p class="text-secondary">Appointment Proof of authorized signatory </p>
+                                  
+                                </div>
+                              </div>
+
+                            </div>
+      
+                        </div>
+
+                      </div>
+                    </div>  
+
+                    <div class="container my-5">
+                      <div class="row">
+                        
+                        <div class="col-md-4">
+                            <div class="py-4">
+                            <h2 class="text-capitalize font-weight-bold my-3">Document Required For <span  style="color: #ff7364">Private limited/Public limited/One person company</span></h2>
+                            <!-- <p class="text-secondary" style="line-height: 2;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam.</p>
+                             -->
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+
+                            <div class="row">
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number " src="img/number-1.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">PAN</a></h5>
+                                 <p class="text-secondary">Company’s Permanent Account Number (PAN) Card .</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-2.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Directors Docuements</a></h5>
+                                 <p class="text-secondary">Aadhaar card, PAN card, a photograph of all Directors</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-3.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">	Certificate of Registration</a></h5>
+                                <p class="text-secondary">	Certificate of Registration</p>
+                                </div>
+                              </div>
+                             
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-4.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Bank Docuements</a></h5>
+                                  <p class="text-secondary">Bank Statement or cancel cheque or passbook</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-5.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">office Address Proof</a></h5>
+                                  <p class="text-secondary"><strong>Own office</strong> – A copy of electricity bill/water bill/landline bill/ property tax receipt/ municipal khata</p>
+                                  <p class="text-secondary"><strong>Rented office</strong> – A copy of Rent agreement and NOC (No objection certificate) from the owner.</p>
+                                
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-6.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">MOA / AOA</a></h5>
+                                  <p class="text-secondary">	MOA (Memorandum of Association) /AOA (Articles of Association)</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-7.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Letter of Authorization</a></h5>
+                                  <p class="text-secondary">Appointment Proof of authorized signatory </p>
+                                  
+                                </div>
+                              </div>
+
+                            </div>
+      
+                        </div>
+
+                      </div>
+                    </div>  
+
+                    <div class="container my-5">
+                      <div class="row">
+                        
+                        <div class="col-md-4">
+                            <div class="py-4">
+                            <h2 class="text-capitalize font-weight-bold my-3">Document Required For <span  style="color: #ff7364">Society or Trust or Club</span></h2>
+                            <!-- <p class="text-secondary" style="line-height: 2;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam.</p>
+                             -->
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+
+                            <div class="row">
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number " src="img/number-1.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">PAN</a></h5>
+                                 <p class="text-secondary"> Permanent Account Number (PAN) of society/Club/Trust.</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-2.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Partners Docuements</a></h5>
+                                 <p class="text-secondary">PAN Card and Photo of Promoter/ Partners</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                              <img class="process-number" src="img/number-3.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Certificate of Registration</a></h5>
+                                <p class="text-secondary">Certificate of Registration</p>
+                                </div>
+                              </div>
+                             
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-4.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Bank Docuements</a></h5>
+                                  <p class="text-secondary">Bank Statement or cancel cheque or passbook</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-5.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">office Address Proof</a></h5>
+                                  <p class="text-secondary"><strong>Own office</strong> – A copy of electricity bill/water bill/landline bill/ property tax receipt/ municipal khata</p>
+                                  <p class="text-secondary"><strong>Rented office</strong> – A copy of Rent agreement and NOC (No objection certificate) from the owner.</p>
+                                
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 px-4 my-2">
+                                <img class="process-number" src="img/number-6.png">
+                                <div class="mt-3">
+                                <h5 class="mb-2" style="font-weight: 600;"><a href="#" style="color: #2e2751">Letter of Authorization</a></h5>
+                                  <p class="text-secondary">Appointment Proof of authorized signatory </p>
+                                  
+                                </div>
+                              </div>
+
+                            </div>
+      
+                        </div>
+
+                      </div>
+                    </div>  
+
 
                     </div>
 
@@ -740,6 +1039,114 @@ border: none;
 
 
 <!--/ End GST REGISTERATION Services -->
+
+	<!-- Latest Blog -->
+  <section class="latest-blog section-space section-bg ">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
+						<div class="section-title default text-center">
+							<div class="section-top">
+								<h1><span>Latest</span><b>  GST Updates </b></h1>
+							</div>
+							<div class="section-bottom">
+								<div class="text">
+									<p>Lorem Ipsum Dolor Sit Amet, Conse Ctetur Adipiscing Elit, Sed Do Eiusmod Tempor Ares Incididunt Utlabore. Dolore Magna Ones Baliqua</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="blog-latest blog-latest-slider">
+							<div class="single-slider">
+								<!-- Single Blog -->
+								<div class="single-news ">
+									<div class="news-head overlay">
+										<span class="news-img" style="background-image:url('https://via.placeholder.com/700x530')"></span>
+										<a href="#" class="bizwheel-btn theme-2">Read more</a>
+									</div>
+									<div class="news-body">
+										<div class="news-content">
+											<h3 class="news-title"><a href="blog-single.html">We Provide you Best &amp; Creative Consulting Service</a></h3>
+											<div class="news-text"><p>Sed tempus pulvinar augue ut euismod. Donec a nisi volutpat, dignissim mauris eget. Quisque vitae nunc sit amet eros pellentesque tempus at sit amet sem. Maecenas feugiat mauris</p></div>
+											<ul class="news-meta">
+												<li class="date"><i class="fa fa-calendar"></i>April 2020</li>
+												<li class="view"><i class="fa fa-comments"></i>0</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!--/ End Single Blog -->
+							</div>
+							<div class="single-slider">
+								<!-- Single Blog -->
+								<div class="single-news ">
+									<div class="news-head overlay">
+										<span class="news-img" style="background-image:url('https://via.placeholder.com/700x530')"></span>
+										<a href="#" class="bizwheel-btn theme-2">Read more</a>
+									</div>
+									<div class="news-body">
+										<div class="news-content">
+											<h3 class="news-title"><a href="blog-single.html">We Provide you Best &amp; Creative Consulting Service</a></h3>
+											<div class="news-text"><p>Sed tempus pulvinar augue ut euismod. Donec a nisi volutpat, dignissim mauris eget. Quisque vitae nunc sit amet eros pellentesque tempus at sit amet sem. Maecenas feugiat mauris</p></div>
+											<ul class="news-meta">
+												<li class="date"><i class="fa fa-calendar"></i>April 2020</li>
+												<li class="view"><i class="fa fa-comments"></i>0</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!--/ End Single Blog -->
+							</div>
+							<div class="single-slider">
+								<!-- Single Blog -->
+								<div class="single-news ">
+									<div class="news-head overlay">
+										<span class="news-img" style="background-image:url('https://via.placeholder.com/700x530')"></span>
+										<a href="#" class="bizwheel-btn theme-2">Read more</a>
+									</div>
+									<div class="news-body">
+										<div class="news-content">
+											<h3 class="news-title"><a href="blog-single.html">We Provide you Best &amp; Creative Consulting Service</a></h3>
+											<div class="news-text"><p>Sed tempus pulvinar augue ut euismod. Donec a nisi volutpat, dignissim mauris eget. Quisque vitae nunc sit amet eros pellentesque tempus at sit amet sem. Maecenas feugiat mauris</p></div>
+											<ul class="news-meta">
+												<li class="date"><i class="fa fa-calendar"></i>April 2020</li>
+												<li class="view"><i class="fa fa-comments"></i>0</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!--/ End Single Blog -->
+							</div>
+							<div class="single-slider">
+								<!-- Single Blog -->
+								<div class="single-news ">
+									<div class="news-head overlay">
+										<span class="news-img" style="background-image:url('https://via.placeholder.com/700x530')"></span>
+										<a href="#" class="bizwheel-btn theme-2">Read more</a>
+									</div>
+									<div class="news-body">
+										<div class="news-content">
+											<h3 class="news-title"><a href="blog-single.html">We Provide you Best &amp; Creative Consulting Service</a></h3>
+											<div class="news-text"><p>Sed tempus pulvinar augue ut euismod. Donec a nisi volutpat, dignissim mauris eget. Quisque vitae nunc sit amet eros pellentesque tempus at sit amet sem. Maecenas feugiat mauris</p></div>
+											<ul class="news-meta">
+												<li class="date"><i class="fa fa-calendar"></i>April 2020</li>
+												<li class="view"><i class="fa fa-comments"></i>0</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!--/ End Single Blog -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Latest Blog -->
+
 
 <!-- Call To Action -->
 <section class="call-action overlay">
