@@ -1,4 +1,4 @@
-======================================
+/*======================================
 	CSS Theme Table of Contents
 ========================================	
 # Header CSS
@@ -339,6 +339,15 @@
 	opacity: 1;
 	visibility: visible;
 	transform: scaleY(1);
+}
+.list-unstyled li a{
+    color: #2E2751!important;
+}
+.list-unstyled li a:hover{
+    color: #ff7364!important;
+}
+.list-unstyled li a::before{
+   display: none;
 }
 /* Right Bar */
 .right-bar {
