@@ -1,4 +1,6 @@
-
+		<!-- CTA Link -->
+		<?php include 'include/cta-modal.php';?>
+		<!-- CTA Link -->
 		<!-- Footer -->
 		<footer class="footer" style="background-image:url('img/map.png')">
 			<!-- Footer Top -->

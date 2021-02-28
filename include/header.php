@@ -56,7 +56,7 @@ $(document).ready(function() {
 									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 								</ul>															
 								<div class="button">
-									<a href="contact.php" class="bizwheel-btn">Get a Quote</a>
+									<a href="" class="bizwheel-btn" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
 								</div>
 							</div>
 						</div>
@@ -162,7 +162,7 @@ $(document).ready(function() {
 																				<div class="col-megamenu">
 																					<h6 class="title">GST</h6>
 																					<ul class="list-unstyled">
-																						<li><a href="#"><i class="fa fa-check-square-o" aria-hidden="true"></i>GST Registration</a></li>
+																						<li><a href="gst_registration.php"><i class="fa fa-check-square-o" aria-hidden="true"></i>GST Registration</a></li>
 																						<li><a href="#"><i class="fa fa-check-square-o" aria-hidden="true"></i>GST Return</a></li>
 																						<!--<li><a href="#">Sub Services</a></li>-->
 																					</ul>

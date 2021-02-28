@@ -1,3 +1,53 @@
+<?php
+
+
+$errors = [];
+$errorMessage = '';
+
+if (!empty($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+	$phone = $_POST['phone'];
+    $message = $_POST['message'];
+
+    if (empty($name)) {
+        $errors[] = 'Name is empty';
+    }
+
+    if (empty($email)) {
+        $errors[] = 'Email is empty';
+    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = 'Email is invalid';
+    }
+	if (empty($phone)) {
+        $errors[] = 'Phone number is empty';
+    }
+    if (empty($message)) {
+        $errors[] = 'Message is empty';
+    }
+
+
+    if (empty($errors)) {
+        $toEmail = 'sandyy1216@gmail.com';
+        $emailSubject = 'New email from your contant form';
+        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
+
+        $bodyParagraphs = ["Name: {$name}", "Email: {$email}","Phone: {$phone}" , "Message:", $message];
+        $body = join(PHP_EOL, $bodyParagraphs);
+
+        if (mail($toEmail, $emailSubject, $body, $headers)) {
+            header('Location: alltaxessolution/index.php');
+        } else {
+            $errorMessage = 'Oops, something went wrong. Please try again later';
+        }
+    } else {
+        $allErrors = join('<br/>', $errors);
+        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -86,12 +136,13 @@
 						<!-- Contact Form -->
 						<div class="contact-form-area m-top-30">
 							<h4>Get In Touch</h4>
-							<form class="form" method="post" action="mail/mail.php">
+							<form class="form" method="post" action="contact.php" id="contact-form">
+								<?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-12">
 										<div class="form-group">
 											<div class="icon"><i class="fa fa-user"></i></div>
-											<input type="text" name="first_name" placeholder="First Name">
+											<input type="text" name="name" placeholder="First Name">
 										</div>
 									</div>
 									<div class="col-lg-6 col-md-6 col-12">
@@ -103,13 +154,13 @@
 									<div class="col-lg-6 col-md-6 col-12">
 										<div class="form-group">
 											<div class="icon"><i class="fa fa-envelope"></i></div>
-											<input type="email" name="email" placeholder="Type Subjects">
+											<input type="email" name="email" placeholder="Email">
 										</div>
 									</div>
 									<div class="col-lg-6 col-md-6 col-12">
 										<div class="form-group">
 											<div class="icon"><i class="fa fa-phone"></i></div>
-											<input type="tel" name="subject" placeholder="Mobile No.">
+											<input type="tel" name="phone" placeholder="Mobile No.">
 										</div>
 									</div>
 									<div class="col-12">
@@ -130,14 +181,53 @@
 					</div>
 					<div class="col-lg-5 col-md-5 col-12">
 						<div class="google-map m-top-30">
-                        <div class="mapouter"><div class="gmap_canvas"><iframe width="487" height="530" id="gmap_canvas" src="https://maps.google.com/maps?q=faridabad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-en.org/en/">123movies download</a></div><style>.mapouter{position:relative;text-align:right;height:530px;width:487px;}.gmap_canvas {overflow:hidden;background:none!important;height:530px;width:487px;}</style></div>
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="487" height="530" id="gmap_canvas" src="https://maps.google.com/maps?q=faridabad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:530px;width:487px;}.gmap_canvas {overflow:hidden;background:none!important;height:530px;width:487px;}</style></div>
                         </div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-    <?php include 'include/footer.php';?>
+    	<?php include 'include/footer.php';?>
 		<?php include 'include/script.php';?>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script>
+      const constraints = {
+          name: {
+              presence: { allowEmpty: false }
+          },
+          email: {
+              presence: { allowEmpty: false },
+              email: true
+          },
+          message: {
+              presence: { allowEmpty: false }
+          }
+      };
+
+      const form = document.getElementById('contact-form');
+
+      form.addEventListener('submit', function (event) {
+          const formValues = {
+              name: form.elements.name.value,
+              email: form.elements.email.value,
+              message: form.elements.message.value
+          };
+
+          const errors = validate(formValues, constraints);
+
+          if (errors) {
+              event.preventDefault();
+              const errorMessage = Object
+                  .values(errors)
+                  .map(function (fieldValues) {
+                      return fieldValues.join(', ')
+                  })
+                  .join("\n");
+
+              alert(errorMessage);
+          }
+      }, false);
+  </script>
     </body>
 </html>

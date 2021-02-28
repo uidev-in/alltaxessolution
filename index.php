@@ -179,7 +179,7 @@
 					</div>
 					<div class="col-lg-3 col-12">
 						<div class="button">
-							<a href="#" class="bizwheel-btn">Book Appointment</a>
+							<a href="" class="bizwheel-btn"  data-toggle="modal" data-target="#exampleModal">Book Appointment</a>
 						</div>
 					</div>
 				</div>

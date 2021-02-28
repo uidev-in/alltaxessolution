@@ -179,11 +179,11 @@ th {
 	-moz-transition: all 500ms ease;
 	transition: all 500ms ease;
 	display: block;
-	color: #1A9F68;
+	color: #ff7364;
 	border-radius: 100%;
 }
 #scrollUp i:hover{
-	background:#1A9F68;
+	background:#ff7364;
 	color:#fff;
 }
 .section-padding {

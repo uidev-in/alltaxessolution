@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- Title Tag  -->
-        <title>Contact Us | All Taxes Solution</title>
+        <title>About Us | All Taxes Solution</title>
         
 		<?php include 'include/head.php';?>
 		
@@ -189,7 +189,7 @@
 					</div>
 					<div class="col-lg-3 col-12">
 						<div class="button">
-							<a href="contact.php" class="bizwheel-btn">Book Appointment</a>
+							<a href="" class="bizwheel-btn" data-toggle="modal" data-target="#exampleModal">Book Appointment</a>
 						</div>
 					</div>
 				</div>
